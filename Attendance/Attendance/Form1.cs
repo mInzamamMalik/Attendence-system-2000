@@ -243,7 +243,7 @@ namespace Attendance
             MessageBox.Show(
                             "My Name is Inzamam Malik"+
                             "\ni'm student of Semister iii Computer Science in Federal Urdu University "+
-                            "\ni'm related to open source technoogies like MEAN Stak, firebase, ionic etc. "+
+                            "\ni'm related to open source technolgies like MEAN Stak, firebase, ionic etc. "+
                             "and contributing in open Source from 3 years"+
                             "\nNow a days i develop Hybrid Mobile Application for a local firm named PanaCloud" 
                             , " About Me");

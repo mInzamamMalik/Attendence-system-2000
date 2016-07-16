@@ -566,7 +566,7 @@ namespace Attendance
                 //Insert a paragraph at the beginning of the document.
                 Word.Paragraph oPara1;
                 oPara1 = oDoc.Content.Paragraphs.Add(ref oMissing);
-                oPara1.Range.Text = "Vijay Mukhi's Computer Institute";
+                oPara1.Range.Text = "Federal Urdu University";
                 oPara1.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter;
                 oPara1.Range.Font.Bold = 1;
                 oPara1.Format.SpaceAfter = 24;    //24 pt spacing after paragraph.
