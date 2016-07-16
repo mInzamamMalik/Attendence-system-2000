@@ -68,6 +68,8 @@ namespace Attendance
             this.printSavedAttendanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.creditsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutMeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutSoftwareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,34 +98,34 @@ namespace Attendance
             this.deleteDepartmentToolStripMenuItem,
             this.displayDepartmentListToolStripMenuItem});
             this.departmentToolStripMenuItem.Name = "departmentToolStripMenuItem";
-            this.departmentToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.departmentToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.departmentToolStripMenuItem.Text = "Department";
             // 
             // newDepartmentToolStripMenuItem
             // 
             this.newDepartmentToolStripMenuItem.Name = "newDepartmentToolStripMenuItem";
-            this.newDepartmentToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.newDepartmentToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.newDepartmentToolStripMenuItem.Text = "New Department Name";
             this.newDepartmentToolStripMenuItem.Click += new System.EventHandler(this.newDepartmentToolStripMenuItem_Click);
             // 
             // modifyDepartmentNameToolStripMenuItem
             // 
             this.modifyDepartmentNameToolStripMenuItem.Name = "modifyDepartmentNameToolStripMenuItem";
-            this.modifyDepartmentNameToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.modifyDepartmentNameToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.modifyDepartmentNameToolStripMenuItem.Text = "Modify Department Name";
             this.modifyDepartmentNameToolStripMenuItem.Click += new System.EventHandler(this.modifyDepartmentNameToolStripMenuItem_Click);
             // 
             // deleteDepartmentToolStripMenuItem
             // 
             this.deleteDepartmentToolStripMenuItem.Name = "deleteDepartmentToolStripMenuItem";
-            this.deleteDepartmentToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.deleteDepartmentToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.deleteDepartmentToolStripMenuItem.Text = "Delete Department Name";
             this.deleteDepartmentToolStripMenuItem.Click += new System.EventHandler(this.deleteDepartmentToolStripMenuItem_Click);
             // 
             // displayDepartmentListToolStripMenuItem
             // 
             this.displayDepartmentListToolStripMenuItem.Name = "displayDepartmentListToolStripMenuItem";
-            this.displayDepartmentListToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.displayDepartmentListToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.displayDepartmentListToolStripMenuItem.Text = "Display Department Names";
             this.displayDepartmentListToolStripMenuItem.Click += new System.EventHandler(this.displayDepartmentListToolStripMenuItem_Click);
             // 
@@ -135,34 +137,34 @@ namespace Attendance
             this.deleteClassNameToolStripMenuItem,
             this.displayClassNameListToolStripMenuItem});
             this.classToolStripMenuItem.Name = "classToolStripMenuItem";
-            this.classToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.classToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.classToolStripMenuItem.Text = "Class";
             // 
             // newClassNameToolStripMenuItem
             // 
             this.newClassNameToolStripMenuItem.Name = "newClassNameToolStripMenuItem";
-            this.newClassNameToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.newClassNameToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.newClassNameToolStripMenuItem.Text = "New Class Name";
             this.newClassNameToolStripMenuItem.Click += new System.EventHandler(this.newClassNameToolStripMenuItem_Click);
             // 
             // modifyClassNameToolStripMenuItem
             // 
             this.modifyClassNameToolStripMenuItem.Name = "modifyClassNameToolStripMenuItem";
-            this.modifyClassNameToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.modifyClassNameToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.modifyClassNameToolStripMenuItem.Text = "Modify Class Name";
             this.modifyClassNameToolStripMenuItem.Click += new System.EventHandler(this.modifyClassNameToolStripMenuItem_Click);
             // 
             // deleteClassNameToolStripMenuItem
             // 
             this.deleteClassNameToolStripMenuItem.Name = "deleteClassNameToolStripMenuItem";
-            this.deleteClassNameToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.deleteClassNameToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.deleteClassNameToolStripMenuItem.Text = "Delete Class Name";
             this.deleteClassNameToolStripMenuItem.Click += new System.EventHandler(this.deleteClassNameToolStripMenuItem_Click);
             // 
             // displayClassNameListToolStripMenuItem
             // 
             this.displayClassNameListToolStripMenuItem.Name = "displayClassNameListToolStripMenuItem";
-            this.displayClassNameListToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.displayClassNameListToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.displayClassNameListToolStripMenuItem.Text = "Display Class Names";
             this.displayClassNameListToolStripMenuItem.Click += new System.EventHandler(this.displayClassNameListToolStripMenuItem_Click);
             // 
@@ -174,34 +176,34 @@ namespace Attendance
             this.deleteLecturerNameToolStripMenuItem,
             this.displayListOfLecturerInDepartmentToolStripMenuItem});
             this.lecturerToolStripMenuItem.Name = "lecturerToolStripMenuItem";
-            this.lecturerToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.lecturerToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.lecturerToolStripMenuItem.Text = "Lecturer";
             // 
             // addNewLecturerInDepartmentToolStripMenuItem
             // 
             this.addNewLecturerInDepartmentToolStripMenuItem.Name = "addNewLecturerInDepartmentToolStripMenuItem";
-            this.addNewLecturerInDepartmentToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.addNewLecturerInDepartmentToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.addNewLecturerInDepartmentToolStripMenuItem.Text = "New Lecturer Name";
             this.addNewLecturerInDepartmentToolStripMenuItem.Click += new System.EventHandler(this.addNewLecturerInDepartmentToolStripMenuItem_Click);
             // 
             // modifyLecturerNameToolStripMenuItem
             // 
             this.modifyLecturerNameToolStripMenuItem.Name = "modifyLecturerNameToolStripMenuItem";
-            this.modifyLecturerNameToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.modifyLecturerNameToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.modifyLecturerNameToolStripMenuItem.Text = "Modify Lecturer Name";
             this.modifyLecturerNameToolStripMenuItem.Click += new System.EventHandler(this.modifyLecturerNameToolStripMenuItem_Click);
             // 
             // deleteLecturerNameToolStripMenuItem
             // 
             this.deleteLecturerNameToolStripMenuItem.Name = "deleteLecturerNameToolStripMenuItem";
-            this.deleteLecturerNameToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.deleteLecturerNameToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.deleteLecturerNameToolStripMenuItem.Text = "Delete Lecturer Name";
             this.deleteLecturerNameToolStripMenuItem.Click += new System.EventHandler(this.deleteLecturerNameToolStripMenuItem_Click);
             // 
             // displayListOfLecturerInDepartmentToolStripMenuItem
             // 
             this.displayListOfLecturerInDepartmentToolStripMenuItem.Name = "displayListOfLecturerInDepartmentToolStripMenuItem";
-            this.displayListOfLecturerInDepartmentToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.displayListOfLecturerInDepartmentToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.displayListOfLecturerInDepartmentToolStripMenuItem.Text = "Display Lecturers Names";
             this.displayListOfLecturerInDepartmentToolStripMenuItem.Click += new System.EventHandler(this.displayListOfLecturerInDepartmentToolStripMenuItem_Click);
             // 
@@ -213,34 +215,34 @@ namespace Attendance
             this.deleteStudentNameFromClassToolStripMenuItem,
             this.displayLToolStripMenuItem});
             this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
-            this.studentToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.studentToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.studentToolStripMenuItem.Text = "Subject";
             // 
             // addNewStudentInClassToolStripMenuItem
             // 
             this.addNewStudentInClassToolStripMenuItem.Name = "addNewStudentInClassToolStripMenuItem";
-            this.addNewStudentInClassToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.addNewStudentInClassToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.addNewStudentInClassToolStripMenuItem.Text = "New Subject Name";
             this.addNewStudentInClassToolStripMenuItem.Click += new System.EventHandler(this.addNewStudentInClassToolStripMenuItem_Click);
             // 
             // modifyStudentNameToolStripMenuItem
             // 
             this.modifyStudentNameToolStripMenuItem.Name = "modifyStudentNameToolStripMenuItem";
-            this.modifyStudentNameToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.modifyStudentNameToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.modifyStudentNameToolStripMenuItem.Text = "Modify Subject Name ";
             this.modifyStudentNameToolStripMenuItem.Click += new System.EventHandler(this.modifyStudentNameToolStripMenuItem_Click);
             // 
             // deleteStudentNameFromClassToolStripMenuItem
             // 
             this.deleteStudentNameFromClassToolStripMenuItem.Name = "deleteStudentNameFromClassToolStripMenuItem";
-            this.deleteStudentNameFromClassToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.deleteStudentNameFromClassToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.deleteStudentNameFromClassToolStripMenuItem.Text = "Delete Subject Name";
             this.deleteStudentNameFromClassToolStripMenuItem.Click += new System.EventHandler(this.deleteStudentNameFromClassToolStripMenuItem_Click);
             // 
             // displayLToolStripMenuItem
             // 
             this.displayLToolStripMenuItem.Name = "displayLToolStripMenuItem";
-            this.displayLToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.displayLToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.displayLToolStripMenuItem.Text = "Display Subject Names";
             this.displayLToolStripMenuItem.Click += new System.EventHandler(this.displayLToolStripMenuItem_Click);
             // 
@@ -252,34 +254,34 @@ namespace Attendance
             this.modifyStudentNameToolStripMenuItem1,
             this.displayListOfStudentInClassToolStripMenuItem});
             this.studentToolStripMenuItem1.Name = "studentToolStripMenuItem1";
-            this.studentToolStripMenuItem1.Size = new System.Drawing.Size(57, 20);
+            this.studentToolStripMenuItem1.Size = new System.Drawing.Size(60, 20);
             this.studentToolStripMenuItem1.Text = "Student";
             // 
             // addNewStudentInClassToolStripMenuItem1
             // 
             this.addNewStudentInClassToolStripMenuItem1.Name = "addNewStudentInClassToolStripMenuItem1";
-            this.addNewStudentInClassToolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
+            this.addNewStudentInClassToolStripMenuItem1.Size = new System.Drawing.Size(196, 22);
             this.addNewStudentInClassToolStripMenuItem1.Text = "New Student Name";
             this.addNewStudentInClassToolStripMenuItem1.Click += new System.EventHandler(this.addNewStudentInClassToolStripMenuItem1_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.deleteToolStripMenuItem.Text = "Modify Student Name";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // modifyStudentNameToolStripMenuItem1
             // 
             this.modifyStudentNameToolStripMenuItem1.Name = "modifyStudentNameToolStripMenuItem1";
-            this.modifyStudentNameToolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
+            this.modifyStudentNameToolStripMenuItem1.Size = new System.Drawing.Size(196, 22);
             this.modifyStudentNameToolStripMenuItem1.Text = "Delete Student Name";
             this.modifyStudentNameToolStripMenuItem1.Click += new System.EventHandler(this.modifyStudentNameToolStripMenuItem1_Click);
             // 
             // displayListOfStudentInClassToolStripMenuItem
             // 
             this.displayListOfStudentInClassToolStripMenuItem.Name = "displayListOfStudentInClassToolStripMenuItem";
-            this.displayListOfStudentInClassToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.displayListOfStudentInClassToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.displayListOfStudentInClassToolStripMenuItem.Text = "Display Student Names";
             this.displayListOfStudentInClassToolStripMenuItem.Click += new System.EventHandler(this.displayListOfStudentInClassToolStripMenuItem_Click);
             // 
@@ -289,7 +291,7 @@ namespace Attendance
             this.lecturerRegistratToolStripMenuItem,
             this.studentsRegistrationToolStripMenuItem});
             this.registrationToolStripMenuItem.Name = "registrationToolStripMenuItem";
-            this.registrationToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.registrationToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.registrationToolStripMenuItem.Text = "Registration";
             // 
             // lecturerRegistratToolStripMenuItem
@@ -299,27 +301,27 @@ namespace Attendance
             this.deRegisterLecturerNameForASubjectToolStripMenuItem,
             this.displayListOfRegisteredSubjectInSemesterToolStripMenuItem});
             this.lecturerRegistratToolStripMenuItem.Name = "lecturerRegistratToolStripMenuItem";
-            this.lecturerRegistratToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.lecturerRegistratToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
             this.lecturerRegistratToolStripMenuItem.Text = "Lecturer Registration";
             // 
             // registerLecturerNameForASubjectToolStripMenuItem
             // 
             this.registerLecturerNameForASubjectToolStripMenuItem.Name = "registerLecturerNameForASubjectToolStripMenuItem";
-            this.registerLecturerNameForASubjectToolStripMenuItem.Size = new System.Drawing.Size(290, 22);
+            this.registerLecturerNameForASubjectToolStripMenuItem.Size = new System.Drawing.Size(308, 22);
             this.registerLecturerNameForASubjectToolStripMenuItem.Text = "Register Lecturer Name for a Subject ";
             this.registerLecturerNameForASubjectToolStripMenuItem.Click += new System.EventHandler(this.registerLecturerNameForASubjectToolStripMenuItem_Click);
             // 
             // deRegisterLecturerNameForASubjectToolStripMenuItem
             // 
             this.deRegisterLecturerNameForASubjectToolStripMenuItem.Name = "deRegisterLecturerNameForASubjectToolStripMenuItem";
-            this.deRegisterLecturerNameForASubjectToolStripMenuItem.Size = new System.Drawing.Size(290, 22);
+            this.deRegisterLecturerNameForASubjectToolStripMenuItem.Size = new System.Drawing.Size(308, 22);
             this.deRegisterLecturerNameForASubjectToolStripMenuItem.Text = "Unregister Lecturer Name for a Subject ";
             this.deRegisterLecturerNameForASubjectToolStripMenuItem.Click += new System.EventHandler(this.deRegisterLecturerNameForASubjectToolStripMenuItem_Click);
             // 
             // displayListOfRegisteredSubjectInSemesterToolStripMenuItem
             // 
             this.displayListOfRegisteredSubjectInSemesterToolStripMenuItem.Name = "displayListOfRegisteredSubjectInSemesterToolStripMenuItem";
-            this.displayListOfRegisteredSubjectInSemesterToolStripMenuItem.Size = new System.Drawing.Size(290, 22);
+            this.displayListOfRegisteredSubjectInSemesterToolStripMenuItem.Size = new System.Drawing.Size(308, 22);
             this.displayListOfRegisteredSubjectInSemesterToolStripMenuItem.Text = "Display List of registered Subject in Semester";
             this.displayListOfRegisteredSubjectInSemesterToolStripMenuItem.Click += new System.EventHandler(this.displayListOfRegisteredSubjectInSemesterToolStripMenuItem_Click);
             // 
@@ -330,27 +332,27 @@ namespace Attendance
             this.deRegisterStudentToolStripMenuItem,
             this.displayListOfStudentRegisterForASubjectToolStripMenuItem});
             this.studentsRegistrationToolStripMenuItem.Name = "studentsRegistrationToolStripMenuItem";
-            this.studentsRegistrationToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.studentsRegistrationToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
             this.studentsRegistrationToolStripMenuItem.Text = "Student Registration";
             // 
             // registerStudentsNameToolStripMenuItem
             // 
             this.registerStudentsNameToolStripMenuItem.Name = "registerStudentsNameToolStripMenuItem";
-            this.registerStudentsNameToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.registerStudentsNameToolStripMenuItem.Size = new System.Drawing.Size(305, 22);
             this.registerStudentsNameToolStripMenuItem.Text = "Register Student Name for a subject";
             this.registerStudentsNameToolStripMenuItem.Click += new System.EventHandler(this.registerStudentsNameToolStripMenuItem_Click);
             // 
             // deRegisterStudentToolStripMenuItem
             // 
             this.deRegisterStudentToolStripMenuItem.Name = "deRegisterStudentToolStripMenuItem";
-            this.deRegisterStudentToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.deRegisterStudentToolStripMenuItem.Size = new System.Drawing.Size(305, 22);
             this.deRegisterStudentToolStripMenuItem.Text = "Unregister Student  Name for a subject";
             this.deRegisterStudentToolStripMenuItem.Click += new System.EventHandler(this.deRegisterStudentToolStripMenuItem_Click);
             // 
             // displayListOfStudentRegisterForASubjectToolStripMenuItem
             // 
             this.displayListOfStudentRegisterForASubjectToolStripMenuItem.Name = "displayListOfStudentRegisterForASubjectToolStripMenuItem";
-            this.displayListOfStudentRegisterForASubjectToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.displayListOfStudentRegisterForASubjectToolStripMenuItem.Size = new System.Drawing.Size(305, 22);
             this.displayListOfStudentRegisterForASubjectToolStripMenuItem.Text = "Display List of Student Register for a Subject";
             this.displayListOfStudentRegisterForASubjectToolStripMenuItem.Click += new System.EventHandler(this.displayListOfStudentRegisterForASubjectToolStripMenuItem_Click);
             // 
@@ -360,37 +362,53 @@ namespace Attendance
             this.addAttendanceToolStripMenuItem,
             this.printSavedAttendanceToolStripMenuItem});
             this.attendanceToolStripMenuItem.Name = "attendanceToolStripMenuItem";
-            this.attendanceToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.attendanceToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.attendanceToolStripMenuItem.Text = "Attendance";
             // 
             // addAttendanceToolStripMenuItem
             // 
             this.addAttendanceToolStripMenuItem.Name = "addAttendanceToolStripMenuItem";
-            this.addAttendanceToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
+            this.addAttendanceToolStripMenuItem.Size = new System.Drawing.Size(302, 22);
             this.addAttendanceToolStripMenuItem.Text = "Add Attendance (subject wise)";
             this.addAttendanceToolStripMenuItem.Click += new System.EventHandler(this.addAttendanceToolStripMenuItem_Click);
             // 
             // printSavedAttendanceToolStripMenuItem
             // 
             this.printSavedAttendanceToolStripMenuItem.Name = "printSavedAttendanceToolStripMenuItem";
-            this.printSavedAttendanceToolStripMenuItem.Size = new System.Drawing.Size(279, 22);
+            this.printSavedAttendanceToolStripMenuItem.Size = new System.Drawing.Size(302, 22);
             this.printSavedAttendanceToolStripMenuItem.Text = "Build Attendance Document (Subject Wise)";
             this.printSavedAttendanceToolStripMenuItem.Click += new System.EventHandler(this.printSavedAttendanceToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.creditsToolStripMenuItem});
+            this.creditsToolStripMenuItem,
+            this.aboutMeToolStripMenuItem,
+            this.aboutSoftwareToolStripMenuItem});
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // creditsToolStripMenuItem
             // 
             this.creditsToolStripMenuItem.Name = "creditsToolStripMenuItem";
-            this.creditsToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.creditsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.creditsToolStripMenuItem.Text = "Credits";
             this.creditsToolStripMenuItem.Click += new System.EventHandler(this.creditsToolStripMenuItem_Click);
+            // 
+            // aboutMeToolStripMenuItem
+            // 
+            this.aboutMeToolStripMenuItem.Name = "aboutMeToolStripMenuItem";
+            this.aboutMeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutMeToolStripMenuItem.Text = "About Me";
+            this.aboutMeToolStripMenuItem.Click += new System.EventHandler(this.aboutMeToolStripMenuItem_Click);
+            // 
+            // aboutSoftwareToolStripMenuItem
+            // 
+            this.aboutSoftwareToolStripMenuItem.Name = "aboutSoftwareToolStripMenuItem";
+            this.aboutSoftwareToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.aboutSoftwareToolStripMenuItem.Text = "About Software";
+            this.aboutSoftwareToolStripMenuItem.Click += new System.EventHandler(this.aboutSoftwareToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -452,6 +470,8 @@ namespace Attendance
         private System.Windows.Forms.ToolStripMenuItem printSavedAttendanceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem creditsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutMeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutSoftwareToolStripMenuItem;
     }
 }
 

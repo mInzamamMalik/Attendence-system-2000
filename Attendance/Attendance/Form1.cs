@@ -224,7 +224,12 @@ namespace Attendance
         private void creditsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Show Message  
-            MessageBox.Show("\nOur Special Thanks To Mr. Vijay Mukhi Sir & entire VMCI staff \n\nAttendance Analysis Software is developed by \nDhiraj Vanmali, \nAniket Vanmali, \nRohan Shringarpure, \nSainath Patil"," Credits");
+            MessageBox.Show("Special Thanks to:\n"+
+                            "\nLecturer Anila Nawaz from Federal Urdu University,"+
+                            "\nMy Friend Hasan Siddiqui from PAF Kiet"+
+                            "\nAnd Google baba :-)"+
+                            "\n\nThey All Helped me alot"
+                            ," Credits");
 
         }
 
@@ -233,6 +238,24 @@ namespace Attendance
 
         }
 
-         
+        private void aboutMeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                            "My Name is Inzamam Malik"+
+                            "\ni'm student of Semister iii Computer Science in Federal Urdu University "+
+                            "\ni'm related to open source technoogies like MEAN Stak, firebase, ionic etc. "+
+                            "and contributing in open Source from 3 years"+
+                            "\nNow a days i develop Hybrid Mobile Application for a local firm named PanaCloud" 
+                            , " About Me");
+        }
+
+        private void aboutSoftwareToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                           "\n\nThis software is a Attendence system for university"+
+                           " created as assigment of Subject Visual Programming" +
+                           " conducted by Respected Lecturer Anila Nawaz"
+                           , " About Me");
+        }
     }
 }
