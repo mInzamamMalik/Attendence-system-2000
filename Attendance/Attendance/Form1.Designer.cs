@@ -70,7 +70,9 @@ namespace Attendance
             this.creditsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutMeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutSoftwareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -392,14 +394,14 @@ namespace Attendance
             // creditsToolStripMenuItem
             // 
             this.creditsToolStripMenuItem.Name = "creditsToolStripMenuItem";
-            this.creditsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.creditsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.creditsToolStripMenuItem.Text = "Credits";
             this.creditsToolStripMenuItem.Click += new System.EventHandler(this.creditsToolStripMenuItem_Click);
             // 
             // aboutMeToolStripMenuItem
             // 
             this.aboutMeToolStripMenuItem.Name = "aboutMeToolStripMenuItem";
-            this.aboutMeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutMeToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.aboutMeToolStripMenuItem.Text = "About Me";
             this.aboutMeToolStripMenuItem.Click += new System.EventHandler(this.aboutMeToolStripMenuItem_Click);
             // 
@@ -410,12 +412,24 @@ namespace Attendance
             this.aboutSoftwareToolStripMenuItem.Text = "About Software";
             this.aboutSoftwareToolStripMenuItem.Click += new System.EventHandler(this.aboutSoftwareToolStripMenuItem_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Attendance.Properties.Resources.mk7fn3dk_1393203038;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(727, 428);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(727, 428);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.pictureBox1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Attendance Analysis System";
@@ -423,6 +437,7 @@ namespace Attendance
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -472,6 +487,7 @@ namespace Attendance
         private System.Windows.Forms.ToolStripMenuItem creditsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutMeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutSoftwareToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
